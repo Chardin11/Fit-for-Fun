@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!--
+      Name: Connor Hardin
+      Date: 06/24/2022
+      Assignment name: Fit for Fun Fitness Club
+      Filename: info.html
+      -->
+    <meta charset="utf-8">
+    <title>Information</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <header>
+    <h1>Information</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="info.html">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+    <h2>Sign Up Here!</h2>
+    <div class="container">
+      <form action="thankyou-1.html" method="get">
+        <fieldset>
+          <legend>
+            Contact Information
+          </legend>
+          <label for="fname">
+            Name:
+            <input autofocus type="text" name="fname" id="fname" required placeholder="First Name" />
+          </label>
+          <label for="lname">
+            Last Name:
+            <input type="text" name="lname" id="lname" required placeholder="Last Name" />
+          </label>
+          <label for="email">
+            Email:
+            <input type="email" name="email" id="email" required placeholder="Email" />
+          </label>
+          <label for="number">
+            Phone:
+            <input type="number" name="number" id="number" />
+          </label>
+          <input class="submit" type="submit" value="Submit" /><br>
+          <label for="am">
+            AM:
+          </label>
+          <input type="radio" id="am" name="AM" value="AM">
+          <label for="pm">
+            PM:
+          </label>
+          <input type="radio" id="pm" name="AM" value="PM"><br>
+        <input type="checkbox" id="crosstraining" name="crosstraining" value="crosstraining">
+        <label for="crosstraining">Cross Training</label><br>
+        <input type="checkbox" id="sprint" name="sprint" value="sprint">
+        <label for="sprint">Sprint</label><br>
+        <input type="checkbox" id="spin" name="spin" value="spin">
+        <label for="spin">Spin</label><br>
+        <input type="checkbox" id="BodyPump" name="BodyPump" value="BodyPump">
+        <label for="BodyPump">BodyPump</label><br>
+        <input type="checkbox" id="BodyCombat" name="BodyCombat" value="BodyCombat">
+        <label for="BodyCombat">BodyCombat</label><br>
+        <label for="prefered-contact-type">Prefered Contact Type:</label>
+        <select id="prefered-contact-type" name="prefered-contact-method">
+          <option value="">--Please choose a prefered contact method--
+          </option>
+          <option value="phone">Phone</option>
+          <option value="text">Text</option>
+          <option value="email">Email</option>
+        </select>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

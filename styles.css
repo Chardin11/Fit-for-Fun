@@ -1,0 +1,56 @@
+/*
+  Name: Connor Hardin
+  Date: 06/24/2022
+  Assignment name: Fit for Fun Fitness Club
+  Filename: index.html
+  */
+
+body {
+  background-color: #F6D98F;
+  font-family: sans-serif;
+}
+
+table{margin:10px 0px 0px 400px; width: 60%; color: black;}
+table, th, td{border:2px #3C4A79 solid; opacity: 0.90;}
+table, td{padding:10px; text-align: center;}
+
+h2{text-align: center;}
+
+h1{text-align: center; padding-top: 40px; color: #833E5B;}
+
+h2, strong, th{color: #833E5B;}
+
+.run{
+ width: 33%;
+ height: 33%;
+}
+
+.swim{
+  width:30%;
+  height: 30%;
+}
+
+.class{
+  width:33%;
+  height: 33%;
+}
+
+tr:nth-child(even){
+  background-color: #e8e8e8;
+}
+
+tr:nth-child(odd){
+  background-color: white;
+}
+
+td:hover {background-color: #FF82F4; color: #00214A;}
+
+.container {
+  margin:auto;
+  width:80%;
+  background-color: #e8e8e8;
+  padding:30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #833E5B;
+}
